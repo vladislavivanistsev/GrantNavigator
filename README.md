@@ -9,7 +9,6 @@ GrantNavigator is a self-contained demonstration application for exploring poten
 - Supports PE, LS, and SH research areas across Starting, Consolidator, and Advanced Grants.
 - Provides an administration view for filtering, sorting, and screening synthetic researcher records.
 - Runs entirely in the browser without external runtime dependencies or persistent browser storage.
-- Keeps the supplied decimal benchmark source data separately from the rounded values used by the interface.
 
 ## Demo notice
 
@@ -25,14 +24,13 @@ No installation or build process is required.
 
 ## Benchmark data
 
-The original decimal benchmark values and source IDs are preserved in `erc-benchmark-source.json`. The application contains a self-contained integer copy in `index.html`, with publication, h-index, and success-rate values rounded upward.
+The application contains self-contained publication, h-index, and success-rate benchmarks in `index.html`. Values used by the interface are rounded upward to integers.
 
 Researcher comparisons use the selected grant type and exact ERC subpanel. Administration records contain only broad panels, so their highlighting uses rounded panel-and-grant averages and requires both the h5-index and output thresholds to be met.
 
 ## Main files
 
 - `index.html` — complete browser application and embedded demonstration dataset.
-- `erc-benchmark-source.json` — preserved decimal benchmarks and source IDs.
 - `researchers.html` — standalone administration-table version retained for reference.
 - `LICENSE` — MIT License.
 

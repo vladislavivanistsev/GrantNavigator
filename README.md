@@ -1,6 +1,6 @@
 # GrantNavigator
 
-GrantNavigator is a self-contained demonstration application for exploring potential European Research Council (ERC) grant matches. It provides separate views for researchers and research administrators.
+GrantNavigator is a self-contained demonstration application for exploring potential European Research Council (ERC) grant matches. It provides separate views for researchers and research administrators. [https://vladislavivanistsev.github.io/GrantNavigator/](vladislavivanistsev.github.io/GrantNavigator)
 
 ## Features
 
